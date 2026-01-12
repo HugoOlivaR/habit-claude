@@ -5,7 +5,8 @@
       "Bash(rustc:*)",
       "Bash(npm:*)",
       "Bash(npmi @tauri-apps/plugin-store @tauri-apps/plugin-notification)",
-      "Bash(npmi:*)"
+      "Bash(npmi:*)",
+      "Bash(source ~/.cargo/env)"
     ]
   }
 }

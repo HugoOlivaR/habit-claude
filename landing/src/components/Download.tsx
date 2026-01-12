@@ -12,7 +12,7 @@ export function Download() {
         </p>
 
         <a
-          href="https://github.com/HugoOlivaR/habit-claude/releases/download/v0.1.0/DailyLoop_0.1.0_aarch64.dmg"
+          href="https://github.com/HugoOlivaR/habit-claude/releases/download/v0.2.0/DailyHabit_0.1.0_aarch64.dmg"
           className="btn-primary text-lg"
         >
           <DownloadIcon size={20} />
@@ -20,7 +20,7 @@ export function Download() {
         </a>
 
         <p className="mt-4 text-sm text-[var(--color-text-secondary)]">
-          Version 0.1.0 · macOS 10.15+
+          Version 0.2.0 · macOS 10.15+
         </p>
       </div>
     </section>
