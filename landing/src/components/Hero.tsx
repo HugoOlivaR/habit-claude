@@ -21,7 +21,7 @@ export function Hero() {
             Download for macOS
           </a>
           <a
-            href="https://github.com/yourusername/DailyHabit"
+            href="https://github.com/HugoOlivaR/habit-claude"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary"

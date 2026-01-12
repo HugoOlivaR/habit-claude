@@ -14,7 +14,7 @@ A minimalist habit and task tracker for macOS.
 
 ## Download
 
-Download the latest release from the [Releases page](https://github.com/yourusername/DailyHabit/releases).
+Download the latest release from the [Releases page](https://github.com/HugoOlivaR/habit-claude/releases).
 
 Requires macOS 10.15 or later.
 

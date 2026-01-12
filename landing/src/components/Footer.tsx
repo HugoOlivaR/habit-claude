@@ -5,7 +5,7 @@ export function Footer() {
         <p>
           Made with care.{" "}
           <a
-            href="https://github.com/yourusername/DailyHabit"
+            href="https://github.com/HugoOlivaR/habit-claude"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--color-text-primary)] hover:underline"
