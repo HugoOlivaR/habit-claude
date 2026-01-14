@@ -20,6 +20,9 @@ const CATEGORY_ICONS: Record<string, string> = {
   fire: "\u{1F525}",
   book: "\u{1F4D6}",
   gym: "\u{1F3CB}\uFE0F",
+  laptop: "\u{1F4BB}",
+  coffee: "\u2615",
+  music: "\u{1F3B5}",
 };
 
 export function TaskItem({

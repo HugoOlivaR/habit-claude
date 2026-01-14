@@ -4,7 +4,6 @@ import { Home } from "./pages/Home";
 import { Onboarding } from "./pages/Onboarding";
 import { Insights } from "./pages/Insights";
 import { Profile } from "./pages/Profile";
-import { DragBar } from "./components/layout/DragBar";
 import { useUserStore } from "./stores/useUserStore";
 import { useTaskStore } from "./stores/useTaskStore";
 import { useSettingsStore } from "./stores/useSettingsStore";
@@ -60,7 +59,6 @@ function AppContent() {
 export default function App() {
   return (
     <BrowserRouter>
-      <DragBar />
       <AppContent />
     </BrowserRouter>
   );

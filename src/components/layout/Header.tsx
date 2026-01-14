@@ -15,8 +15,8 @@ export function Header() {
   };
 
   return (
-    <header className="pt-12 px-5 pb-4 draggable">
-      <div className="flex items-start justify-between no-drag">
+    <header data-tauri-drag-region className="pt-12 px-5 pb-4 cursor-default">
+      <div className="flex items-start justify-between">
         <div>
           <h1 className="text-xl font-semibold">
             Hey, {user?.name || "there"}
@@ -28,7 +28,7 @@ export function Header() {
         </div>
         <button
           onClick={toggleTheme}
-          className="p-2 rounded-full border border-[var(--color-border)]/30 hover:bg-[var(--color-border)]/10 transition-colors"
+          className="p-2 rounded-full border border-[var(--color-border)]/30 hover:bg-[var(--color-border)]/10 transition-colors no-drag"
         >
           {isDark ? <Sun size={18} /> : <Moon size={18} />}
         </button>
