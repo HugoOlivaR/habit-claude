@@ -12,7 +12,7 @@ export function Download() {
         </p>
 
         <a
-          href="https://github.com/HugoOlivaR/habit-claude/releases/download/v0.2.0/DailyHabit_0.1.0_aarch64.dmg"
+          href="https://github.com/HugoOlivaR/habit-claude/releases/download/v0.3.0/DailyHabit_0.3.0_aarch64.dmg"
           className="btn-primary text-lg"
         >
           <DownloadIcon size={20} />
